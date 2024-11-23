@@ -5,5 +5,5 @@ class Aircraft {
                                 public $modelis,
                                 public $sedvietas,
                                 public $atrums) {}
-public function ieguMAXatrumu() { return $this->atrums; /*atgriež lidmašīnas ātrumu.*/}
+public function maxatrumu() { return $this->atrums; /*atgriež lidmašīnas ātrumu.*/}
 } 
